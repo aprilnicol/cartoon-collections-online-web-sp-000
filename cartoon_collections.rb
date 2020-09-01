@@ -6,10 +6,10 @@ names.each_with_index do |name, index|
 end
 
 end
-
-def summon_captain_planet(array)# code an argument here
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+def summon_captain_planet(planeteer_calls)# code an argument here
   # Your code here
-  array.collect {|i| i.capitalize << "!"}
+  planeteer_calls.collect {|i| i.capitalize << "!"}
 end
 
 def long_planeteer_calls# code an argument here
